@@ -1,0 +1,8 @@
+{
+  "name": "rn-global-structure",
+  "version": "0.0.2",
+  "description": "React Native Structure",
+  "repository": "git@github.com:avetisyanvardges/own-template.git",
+  "author": "Vardges Avetisyan <vavetisyan.g@gmail.com>",
+  "license": "MIT"
+}
