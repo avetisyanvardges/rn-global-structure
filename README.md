@@ -26,7 +26,7 @@ To use this template, you can initialize a new React Native project using `react
 ```bash
 npx react-native init YourAppName --template your-template-name
 ```
-Replace `YourAppName` with your desired project name and your-template-name with the name of this custom template.
+Replace `YourAppName` with your desired project name.
 
 ## Authors
 
