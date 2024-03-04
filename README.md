@@ -26,6 +26,7 @@ To use this template, you can initialize a new React Native project using `react
 ```bash
 npx react-native init YourAppName --template rn-global-structure --package-name com.yourpackagename
 ```
+
 Replace `YourAppName` with your desired project name and `com.yourpackagename` with your actual package name. This command will create a new React Native project using your custom template and set the specified package name in the project configuration.
 
 ## Authors
