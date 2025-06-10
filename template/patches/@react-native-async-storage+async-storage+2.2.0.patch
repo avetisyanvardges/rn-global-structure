@@ -1,0 +1,10 @@
+--- a/node_modules/@react-native-async-storage/async-storage/android/src/javaPackage/java/com/reactnativecommunity/asyncstorage/AsyncStoragePackage.java
++++ b/node_modules/@react-native-async-storage/async-storage/android/src/javaPackage/java/com/reactnativecommunity/asyncstorage/AsyncStoragePackage.java
+@@ -39,6 +39,7 @@ public class AsyncStoragePackage extends TurboReactPackage {
+     }
+
+     @Override
++    @SuppressWarnings("unchecked")
+     public ReactModuleInfoProvider getReactModuleInfoProvider() {
+         try {
+             Class<?> reactModuleInfoProviderClass =

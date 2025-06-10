@@ -1,16 +1,18 @@
 import React from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import { AppStack } from './Stack/AppStack';
 import { AuthStack } from './Stack/AuthStack';
 import { ROUT_NAMES } from 'constants/rout';
 import { navigationRef } from 'services/navigation';
 
-function StackNavigation(props) {
-  const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
+
+function StackNavigation() {
   return (
     <NavigationContainer ref={navigationRef}>
       <Stack.Navigator
+        id="MainStack"
         screenOptions={{
           headerShown: false,
           animationEnabled: true,

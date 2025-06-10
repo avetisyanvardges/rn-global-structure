@@ -1,12 +1,13 @@
-import { createStackNavigator } from '@react-navigation/stack';
 import { ROUT_NAMES } from 'constants/rout';
 import TabNavigator from 'navigation/Tab';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+const Stack = createNativeStackNavigator();
 
 function AppStack() {
-  const Stack = createStackNavigator();
-
   return (
     <Stack.Navigator
+      id="AppStack"
       screenOptions={{
         headerShown: false,
       }}
